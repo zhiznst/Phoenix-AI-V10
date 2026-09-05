@@ -1,131 +1,169 @@
-<img src="76866DBF-4780-4197-90B8-813DE901D7A7.png" alt="Phoenix AI V10">
+<p align="center">
+  <img src="76866DBF-4780-4197-90B8-813DE901D7A7.png" alt="Phoenix AI V10">
+</p>
+
 # 🚀 Phoenix AI V10
 
-### AI-Powered Algorithmic Trading Platform
+## AI-Powered Algorithmic Trading Platform
 
-Phoenix AI V10 is an advanced algorithmic trading platform designed to combine Artificial Intelligence, Machine Learning, financial market analysis, automated decision-making and risk management within a modular and scalable software architecture.
+Phoenix AI V10 is an advanced algorithmic trading platform designed around
+AI-driven market analysis, automated decision-making, risk management,
+and modular software architecture.
 
-The project is designed around an end-to-end trading lifecycle:
-
-**Market Data → Analysis → AI → Signal → Risk → Order → Position → Trade → Performance**
-
----
-
-## 🧠 Project Overview
-
-Phoenix AI V10 aims to provide a complete infrastructure for intelligent algorithmic trading rather than functioning as a simple trading script.
-
-The architecture brings together market data processing, technical analysis, machine learning, signal generation, risk management, position management, order management and performance monitoring.
-
-The system is being developed with a strong focus on:
-
-- Scalability
-- Modularity
-- Reliability
-- Risk control
-- Real-time processing
-- Testability
-- Maintainability
+The project is designed as an end-to-end trading infrastructure rather
+than a simple trading script.
 
 ---
 
-## ⚡ Core Capabilities
+## 🧠 Project Vision
+
+Phoenix AI V10 aims to combine:
+
+- Artificial Intelligence
+- Machine Learning
+- Financial Market Analysis
+- Algorithmic Trading
+- Risk Management
+- Automated Decision Systems
+- Modular Software Architecture
+- Performance Monitoring
+
+The primary objective is to build a scalable and reliable trading
+infrastructure capable of evolving through continuous research,
+testing and optimization.
+
+---
+
+## 🏗️ System Architecture
+
+Phoenix AI V10 follows an end-to-end trading lifecycle:
+
+**Market Data**
+→ **Market Analysis**
+→ **Feature Engineering**
+→ **AI / ML**
+→ **Signal Generation**
+→ **Risk Management**
+→ **Order Management**
+→ **Position Management**
+→ **Trade Management**
+→ **Performance Monitoring**
+
+The architecture is designed around modular components so that individual
+systems can be improved independently without redesigning the entire platform.
+
+---
+
+## ⚙️ Core Capabilities
 
 ### 📊 Market Intelligence
-- Real-time market data processing
-- WebSocket-based data infrastructure
+
+- Market data processing
 - Technical indicator analysis
-- Market scanning
-- Market regime analysis
+- Trend detection
+- Momentum analysis
 - Volatility analysis
-- Price action analysis
 - Volume analysis
+- Market regime analysis
 
-### 🤖 Artificial Intelligence
-- Machine Learning-based market analysis
-- AI-powered signal scoring
+### 🤖 AI & Machine Learning
+
+- AI-assisted market evaluation
+- Machine learning models
 - Feature engineering
-- Predictive modeling
 - Model training infrastructure
-- AI-assisted decision systems
+- AI confidence scoring
+- Data-driven decision support
 
-### 🎯 Trading Engine
-- Strategy Engine
-- Signal Engine
-- Trade Engine
-- Order Management
-- Position Management
-- Trade Management
-- Automated execution architecture
+### 📈 Trading Intelligence
+
+- Automated signal generation
+- Multi-factor signal scoring
+- Market condition evaluation
+- Trade opportunity analysis
+- Strategy integration
+- Backtesting infrastructure
+- Paper trading support
 
 ### 🛡️ Risk Management
-- Dynamic risk management
+
+- Risk-aware trade evaluation
 - Position sizing
-- Exposure control
-- Trading protection mechanisms
-- Risk-based decision making
-- System safety controls
+- Exposure management
+- Stop-loss / take-profit logic
+- Trade risk controls
+- Portfolio protection mechanisms
 
-### 🧪 Testing & Validation
-- Backtesting
-- Paper Trading
-- Model evaluation
-- Strategy validation
-- Performance analysis
-- Regression testing
+### 📦 Trade Infrastructure
 
-### ⚙️ Infrastructure
-- Modular architecture
-- Database integration
-- Logging
-- Monitoring
-- Health checks
+- Order management
+- Position management
+- Trade lifecycle management
+- Exchange integration layer
+- Market scanning
+- Execution monitoring
+
+### 🔍 Monitoring & Reliability
+
+- Logging infrastructure
+- Database management
 - Error handling
-- Configuration management
-- Security infrastructure
+- System monitoring
+- Data management
+- Performance tracking
+- Modular service architecture
 
 ---
 
-## 🏗️ Architecture
+## 🧩 Engineering Architecture
 
-Phoenix AI V10 is structured as a modular trading ecosystem.
+Phoenix AI V10 is structured around independent functional modules.
+
+Key architectural areas include:
+
+- AI Engine
+- Feature Engineering
+- Market Scanner
+- Signal Engine
+- Risk Manager
+- Order Manager
+- Position Manager
+- Trade Manager
+- Data Manager
+- Database Layer
+- Exchange Manager
+- WebSocket Infrastructure
+- Logging & Monitoring
+- Configuration Management
+
+This modular approach allows the system to evolve without tightly coupling
+every component to a single trading strategy.
+
+---
+
+## 🔄 Decision Pipeline
+
+A simplified decision pipeline:
 
 ```text
-                    ┌─────────────────────┐
-                    │    Market Data      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Market Intelligence │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   AI / ML Engine    │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Signal Engine     │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Risk Management   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │  Order Management   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Position / Trading  │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Performance & Logs  │
-                    └─────────────────────┘
+Market Data
+     ↓
+Data Processing
+     ↓
+Technical Analysis
+     ↓
+Feature Engineering
+     ↓
+AI / Machine Learning
+     ↓
+Market & Signal Evaluation
+     ↓
+Risk Assessment
+     ↓
+Trade Decision
+     ↓
+Order Management
+     ↓
+Position Management
+     ↓
+Performance Monitoring
