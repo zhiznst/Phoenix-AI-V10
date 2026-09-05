@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="a_dark_futuristic_cyber_tech_infographic_poster.png" alt="Phoenix AI V10">
+</p>
 # 🚀 Phoenix AI V10
 
 ### AI-Powered Algorithmic Trading Platform
